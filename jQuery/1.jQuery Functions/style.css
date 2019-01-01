@@ -1,0 +1,113 @@
+
+*{
+   margin: 0px auto;
+   padding: 0 px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper{
+    width:952px;
+    margin:0px auto;
+    background-color: bisque;
+}
+   h1{ 
+       margin-bottom: 5px;
+   }
+   #Edona, #Gresa, #Njomeza {
+    border-bottom: 1px solid grey;
+}
+
+#Edona {
+width: 950px;
+padding: 3px;
+}
+    #Edona img {
+    width: 150px;
+    margin-right: 15px;
+    }
+    #Edona div {
+    display: inline-block;
+    width: 700px;
+    vertical-align: top;
+    }
+    #Edona #fav {
+    display: none;
+    }
+    #Edona p{
+        margin-bottom: 5px;
+        text-align: justify;
+    }
+    #Edona #fav, #Edona #award{
+        border: 1px solid grey;
+    }
+#Gresa{
+    width: 950px;
+    padding: 3px;
+    }
+    #Gresa img{
+        width: 300px;
+        border: 2px solid lightgrey;
+    }
+    #Gresa div{
+        display: inline-block;
+        height: 94px;
+        margin-right:10px;
+        vertical-align:  top;
+    }
+    #Gresa button{
+        display: block;
+        margin-bottom: 3px;
+        width: 200px;
+    }
+
+#Njomeza{
+    width: 950px;
+    min-height:100px;
+    padding: 3px;
+    }  
+    #Njomeza div{
+        display: inline-block;
+        margin-right:10px;
+        vertical-align:  top;
+    }
+    #hobbies{
+        margin-top:10px;
+        margin-left:10px;
+    }
+    #Njomeza button{
+        display: inline-block;
+        margin-bottom: 3px;
+        width: 180px;
+    }
+    .changecolor{
+        color: red;
+    }
+    ol{
+        display:inline-block;
+        margin-left:50px;
+    }
+#Diarina {
+    width: 950px;
+    padding: 3px;
+    }
+    #Diarina ul {
+        padding: 5px;
+        margin-left: 10px;
+    }
+    #Diarina div {
+        margin-left: 30px;
+        width: 300px;
+    }
+    #Diarina button {
+        margin: 5px 0px 8px 5px;;
+        width: 180px;
+    }
+    #Diarina img {
+        width: 180px;
+        margin-bottom: 8px;
+    }
+   
+
+
+
+

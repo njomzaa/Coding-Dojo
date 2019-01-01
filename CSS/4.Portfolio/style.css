@@ -1,0 +1,174 @@
+*CSS reset settings here*/
+*{
+ margin: 0px;
+ padding: 0px;
+}
+
+/*
+*{
+    border:2px dotted red;
+    }*/
+
+.container{
+    width:970px;
+    min-height:500px;
+    margin: 0px auto;
+    /*padding: 15px;*/
+    background-color:#3d2b32;
+}
+
+.header{
+    width:970px;
+    min-height:60px;
+    background-color:#f5f5f5;
+    margin-left:0px;
+}
+
+.header h1 {
+    width:450px;
+    display:inline-block;
+    padding-left:20px;
+}
+
+.header h2 {
+    display:inline-block;
+    padding-left:35px;
+}
+.top{
+    width:970px;
+    min-height:250px;
+    margin: 0px auto;
+    background-color:#443138;
+   
+    
+}
+
+.profilePhoto{
+    width:425px;
+    min-height:200px;
+    display:inline-block;
+   
+    margin:7px;
+    padding:3px;
+    vertical-align:top;
+}
+
+.profilePhoto img{
+    width:423px;
+    height:235px;
+    border: 3px solid #c0c0c0;
+}
+/*
+.top img{
+    width:425px;
+    height:230px;
+    border: 3px solid #c0c0c0;
+    display:inline-block;
+    margin:5px;
+    vertical-align:top;
+}
+*/
+
+.biography{
+    width:490px;
+    min-height:234px;
+    display:inline-block;
+    background-color:#e6dbe5;
+    margin:10px;
+    padding:3px;
+    vertical-align:top;
+}
+
+.biography h4{
+    color:white;
+    background-color:#9997a1;
+    height:20px;
+    padding:5px;
+    margin:0px;
+    vertical-align:top;
+   
+}
+
+.biography a{
+    color:black;
+}
+
+
+.bottom{
+    width:970px;
+    min-height:300px;
+    background-color:#443138;
+   
+}
+.box{
+    width:290px;
+    min-height:300px;
+    display:inline-block;
+    margin:5px;
+    padding:8px;
+    vertical-align:top;
+    text-align:left;
+    background-color:#e8dfe7;
+    hsl();
+}
+
+.box h4{
+    color:white;
+    background-color:#878593;
+    height:20px;
+    padding:5px;
+    margin-bottom:0px;
+    margin-top:0px;
+}
+
+.box .src{
+    height:100px;
+    
+}
+
+.bottom .box a{
+    text-align:center;
+    background-color:#407d61;
+    text-decoration:none;
+    color:white;
+    border:1px solid black;
+    border-radius:2px;
+    padding:3px;
+   margin-left:100px;
+   
+}
+
+.bottom .box img{
+    width:285px;
+    height:150px;
+        }
+
+.bottom .box p{
+    margin-top:2px;
+    height:162px;
+}
+
+.bottom .box .logos img{
+    width:30px;
+    height:30px;
+    margin:3px;
+   }
+.footer{
+    width:970px;
+    min-height:60px;
+    background-color:#f5f5f5;
+    text-align:center;
+    
+}
+
+.footer img{
+    display:inline-block;
+    width:20px;
+    height:20px;
+  }
+
+  .footer a{
+    color:black;
+    font-style:italic;
+
+  }

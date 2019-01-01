@@ -1,0 +1,96 @@
+/* Build your CSS from scratch in this file */
+*CSS reset settings here*/
+*{
+ margin: 0px;
+ padding: 0px;
+}
+
+#wrapper{
+    width: 970px;
+    background-color: #12355b;
+    margin: 0px auto;
+    padding: 15px;
+    
+}
+
+#header{
+min-height: 80px;
+background-color:#d72638;
+margin-bottom:7px;
+border-radius:20px;
+color:#bfd7ea;
+}
+
+h1{
+    position:absolute;
+    margin-left:15px;
+}
+
+#navigation{
+min-height: 300px;
+ width: 200px;
+ background-color: #087e8b;
+ display: inline-block;
+ vertical-align: top;
+ border-radius:20px;
+ margin-top:10px;
+ color:#52dee5;
+
+}
+
+a.bulletless{
+   color:#52dee5;
+   margin-left:20px;
+   margin-top:10px;
+   position:relative;
+   top:15px;
+   
+}
+
+#navigation ul li a{
+    color:#52dee5;
+    margin-top:20px;
+
+}
+
+#content{
+    min-height: 385px;
+    width: 720px;
+    background-color:#0c1821;
+    display: inline-block;
+    margin-left: 15px;
+    padding: 15px;
+    border-radius:20px;
+    margin-top:10px;
+    color:#bfd7e3;
+}
+
+#content ul li {margin-bottom: 15px;}
+
+#content ul{padding-left: 20px;} 
+
+#content li a{
+    color:#52dee5;
+}
+
+#content span{
+    color:#7692f8;
+}
+
+
+#footer{
+min-height:60px;
+background-color:#5c6672;
+border-radius:20px;
+margin-top:10px;
+color:#acc8db;
+}
+
+#footer p{
+    vertical-align:bottom;
+    position:absolute;
+    margin-left:20px;
+}
+#footer a{
+    color:#52dee5;
+  }

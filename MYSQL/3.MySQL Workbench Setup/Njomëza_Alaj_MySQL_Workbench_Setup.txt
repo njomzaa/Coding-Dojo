@@ -1,0 +1,22 @@
+
+
+
+SELECT
+---------
+
+SELECT * FROM users WHERE first_name = 'Kobe' and last_name='Bryant'
+
+INSERT
+------------
+INSERT INTO users (id, first_name, last_name)
+VALUES (6,'Njomeza','Alaj')
+
+DELETE
+------------
+
+DELETE FROM users WHERE ID = 6;
+
+UPDATE
+------------
+UPDATE users SET id=7, first_name = 'Coding', last_name = 'Dojo'
+WHERE birthday = '1986-02-22'
