@@ -1,0 +1,217 @@
+
+
+1.pip install Django==1.11.9 
+--------------------------
+Meaning: Installs django version 1.11.9
+--------------------------
+Output:
+Collecting Django==1.11.9
+  Downloading https://files.pythonhosted.org/packages/c8/a6/291039f0ce4b9818e0399359866337e6dfe9c0e23d8d94f00e657edbfcd8/Django-1.11.9-py2.py3-none-any.whl (6.9MB)
+    100% |████████████████████████████████| 7.0MB 1.6MB/s
+Collecting pytz (from Django==1.11.9)
+  Using cached https://files.pythonhosted.org/packages/f8/0e/2365ddc010afb3d79147f1dd544e5ee24bf4ece58ab99b16fbb465ce6dc0/pytz-2018.7-py2.py3-none-any.whl
+Installing collected packages: pytz, Django
+Successfully installed Django-1.11.9 pytz-2018.7
+(py3Env)
+
+
+2.pip list 
+-------------------
+Meaning: Lists the list of installed packages
+-------------------
+Output:
+Package    Version
+---------- -------
+Django     1.11.9
+pip        18.1
+pytz       2018.7
+setuptools 40.6.3
+wheel      0.32.3
+(py3Env)
+
+
+
+3.deactivate
+-----------------
+Meaning: deactivates the virtual environment
+-----------------
+Output:
+It displays nothing
+
+
+4.pip3 list
+--------------
+Meaning: List all installed python 3 packages
+Comparing to command pip list, there are listed less packages installed
+-------------
+Output:
+Package    Version
+---------- -------
+pip        18.1
+pytz       2018.7
+setuptools 28.8.0
+virtualenv 16.2.0
+
+
+5.source myEnvironments/py3Env/bin/activate
+-------------------
+Meaning: Activates virtual env
+-------------------
+Output: (py3Env)
+
+6.pip install Django==1.11.9
+-------------------
+Runned for the second time
+------------------
+Output:
+Requirement already satisfied: Django==1.11.9 in c:\users\admin\desktop\python_stack\myenvironments\py3env\lib\site-packages (1.11.9)
+Requirement already satisfied: pytz in c:\users\admin\desktop\python_stack\myenvironments\py3env\lib\site-packages (from Django==1.11.9) (2018.7)
+(py3Env)
+
+7.pip freeze
+--------------
+Meaning:Output installed packages in requirements format.
+
+---------------
+Output:
+Django==1.11.9
+pytz==2018.7
+(py3Env)
+
+
+8.freeze > requirements.txt 
+---------------------------
+Meanging: Generates a requirements file 
+------------------------
+Output after ls command:
+The list of my files and follders in my Desktop and different file formats are defined with different colors
+
+9.pip uninstall Django
+----------------------
+Meaning: Uninstalls Django
+---------------------
+Output:
+Uninstalling Django-1.11.9:
+  Would remove:
+    c:\users\admin\desktop\python_stack\myenvironments\py3env\lib\site-packages\django-1.11.9.dist-info\*
+    c:\users\admin\desktop\python_stack\myenvironments\py3env\lib\site-packages\django\*
+    c:\users\admin\desktop\python_stack\myenvironments\py3env\scripts\django-admin.exe
+    c:\users\admin\desktop\python_stack\myenvironments\py3env\scripts\django-admin.py
+Proceed (y/n)? y
+  Successfully uninstalled Django-1.11.9
+(py3Env)
+
+10.pip show Django
+------------------
+Meaning: Show the version of the package currently installed
+-----------------
+Output:
+It isn't displayed anything since Django doesn't exist
+
+11.pip search Flask
+------------------
+Meaning: Displays all packages containing the name "Flask" and
+a description with that.
+-----------------
+Output:
+Flask-SimpleMDE (0.3.0)     - Flask-SimpleMDE - a Flask extension for SimpleMDE
+Flask-Pure (0.5)            - Flask-Pure - a Flask extension for Pure.css
+Flask-OrientDB (0.1)        - A Flask extension for using OrientDB with Flask
+flask-helloworld (1.0.0)    - Flask Helloworld
+Flask-Intercom (0.1.0)      - Flask-Intercom
+Flask-SPF (0.0.0)           - Flask-SPF
+flask-toolbox (0.0.2)       - A flask toolbox.
+Flask-Turbolinks (0.2.0)    - Turbolinks for Flask.
+Flask-ElasticUtils (0.1.7)  - ElasticUtils for Flask
+Flask-PubSub (0.1.0)        - Flask-PubSub
+Flask-ZS (0.0.1)            - A helpers for Flask.
+sockjs-flask (0.3)          - SockJs for Flask
+Flask-Stripe (0.1.0)        - Flask-Stripe
+Flask-Quik (0.1.1)          - Quik for Flask
+Flask-BDEA (0.1.0)          - Flask-BDEA
+Flask-Helper (0.19)         - Flask Helper
+Flask-GripControl (0.0.1)   - Flask GripControl
+Flask-SRI (0.1.0)           - Flask-SRI
+flask-ws (0.0.1.0)          - Websocket for flask.
+Flask-OAuthlib (0.9.5)      - OAuthlib for Flask
+Flask-Mustache (0.4.1)      - Mustache for Flask
+Fifty-Flask (1.4.0)         - Flask enhancements.
+Flask-Chargebee (0.0.1)     - Flask-Chargebee
+Flask-NextCaller (0.1.0)    - Flask-NextCaller
+Flask-Gears (0.2)           - Gears for Flask
+Flask-Watson (0.1.0)        - Flask-Watson
+Flask-FileRev (0.1.0)       - Flask-FileRev
+Flask-Shopify (0.2)         - Shopify Flask
+Flask-TaskTiger (0.0.1)     - Flask TaskTiger
+Flask-Weixin (0.5.0)        - Weixin for Flask.
+flask-ypaginate (0.1.3)     - Pagination for Flask
+Flask-Keen (0.1.0)          - Flask-Keen
+Flask-AutoIndex (0.6.2)     - The mod_autoindex for Flask
+Flask-Clearbit (0.1.0)      - Flask-Clearbit
+Flask-FontAwesome (0.1.2)   - FontAwesome for Flask
+Flask-Diced (0.3)           - Flask-Diced - CRUD views generator for Flask
+Flask-GeoIP (0.1.3)         - Flask-GeoIP -------------  Simple Flask extension for pygeoip.
+airbrake-flask (1.0.7)      - airbrake-flask - Airbrake client for Python Flask
+flask-myapi (0.1)           - Flask-MyAPI - RESTful support library for Flask
+Flask-RESTive (0.0.3)       - Flask RESTive is a REST API Flask extension based on Flask-RESTful & Marshmallow.
+Flask-LoginManager (1.1.6)  - Flask-Loginmanager supports multiple roles and permissions for Flask, inspired by Flask-Login
+Flask-FlatPagesCut (0.5.1)  - Flask-FlatPagesCut is fork Flask-FlatPages (Provides flat static pages to a Flask application)
+flask-lesscss (0.9.1)       - A small Flask extension that adds LessCSS support to Flask.
+flask-stylus2css (0.1)      - A small Flask extension that adds Stylus support to Flask.
+flask-filters (0.3)         - The Flask Filter to use with flask-restful and Relational DB
+flask-shell (0.1.3)         - Flask extension to improve shell command for the Flask CLI.
+flask-coffee2js (0.1.2)     - A small Flask extension that adds CoffeScript support to Flask.
+Flask-Collect (1.3.2)       - Flask-Collect -- Collect static files in Flask application
+Flask-Shelve (0.1.1)        - Shelve support for Flask
+Flask-OpenID (1.2.5)        - OpenID support for Flask
+Flask-CKEditor (0.4.3)      - CKEditor integration for Flask.
+Flask-SaeStorage (0.9.0)    - SAE Storage for Flask
+flask-discoverer (0.0.5)    - Flask API autodiscovery
+flask-snow (0.2.8)          - Pysnow extension for Flask
+Flask-Slack (0.1.5)         - Slack extension for Flask.
+Flask-Triangle3 (0.5.3)     - Integration of AngularJS and Flask.
+Flask-Config (0.2.1)        - Flask configuration class
+Flask-MySQLdb (0.2.0)       - MySQLdb extension for Flask
+flask-blitzdb (0.1)         - Flask extension for blitzdb
+Flask-RBAC (0.3.0)          - RBAC support for Flask
+Flask-Airbrake (0.0.3)      - Flask extension for Airbrake
+castle-flask (0.0.1)        - A Flask client for Castle.io
+flask-handlers (0.0.1)      - Handlers for Flask applications
+flask-zookeeper (0.0.8)     - Flask Zookeeper client
+Flask-StatHat (0.1.2)       - StatHat extension for Flask
+Flask-MongoDB (0.0.1a8)     - MongoDB flask extension
+flask-hype (0.1.4)          - Flask extension for hype
+Flask-Alchy (0.5.0)         - Flask extension for alchy
+flask-kser (0.2.1)          - Flask KSer example
+Flask-Edits (0.8)           - Editable Content in Flask
+Flask-Triangle (0.5.4)      - Integration of AngularJS and Flask.
+Flask-Zero (0.9.6)          - Qiniu Storage for Flask
+Flask-CuttlePool (0.2.0)    - A Flask extension for CuttlePool
+Flask-Funnel (0.1.10)       - Asset management for Flask.
+Flask-Breve (0.2)           - Breve templating with Flask
+Flask-mongobit (0.1.2)      - MongoBit support in Flask
+flask-logsocketio (0.1.4)   - Flask LogSocketIo module
+Flask-Navigation (0.2.0)    - The navigation of Flask application.
+Flask-Passlib (0.1)         - Flask extension for passlib
+flask-iMail (0.1)           - Mailgun integration for Flask.
+Flask-ZMQ (0.1.2)           - Flask extension for ZMQ
+Flask-Autodoc (0.1.2)       - Documentation generator for flask
+Flask-wechatpy (0.1.3)      - wechatpy for flask extension
+Flask-Vises (2.1.1)         - A Flask scaffold library
+Flask-PyFCM (0.1.1)         - Flask extension for PyFCM
+Flask-sshtunnel (0.1b2)     - sshtunnel extension for flask
+Flask-Enterprise (1.0)      - Enterprise capabilities for Flask
+Flask-CAS (1.0.1)           - Flask extension for CAS
+Flask-SAML (0.4.3)          - Flask SAML integration
+Flask-Flarf (0.0.5)         - Flask request filtering
+flask-tat (0.0.10)          - Flask TAT client
+Flask-Failsafe (0.2)        - A failsafe for the Flask reloader
+Flask-Testing (0.7.1)       - Unit testing for Flask
+nailpack-flask (0.1.0)      - Flask support for nails
+flask-authentic (0.0.6)     - Flask Authentic Extension
+Flask-Avatar (0.1.3)        - To generate avatar for flask
+Flask-Sixpack (0.0.1)       - Flask wrapper for Sixpack
+flask-now (0.1.5)           - Flask App Generator
+Flask-Latch (0.1.0)         - Latch extension for Flask
+Flask-Storm (0.2.0)         - Storm integration for Flask.
+(py3Env)
